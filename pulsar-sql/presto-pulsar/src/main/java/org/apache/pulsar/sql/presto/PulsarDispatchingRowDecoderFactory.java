@@ -24,9 +24,9 @@ import com.google.inject.Inject;
 
 import io.airlift.log.Logger;
 
-import io.prestosql.decoder.DecoderColumnHandle;
-import io.prestosql.spi.connector.ColumnMetadata;
-import io.prestosql.spi.type.TypeManager;
+import io.trino.decoder.DecoderColumnHandle;
+import io.trino.spi.connector.ColumnMetadata;
+import io.trino.spi.type.TypeManager;
 
 import java.util.List;
 import java.util.Set;
